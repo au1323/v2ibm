@@ -86,7 +86,7 @@ if [ ! -f "$CF" ]; then
 fi
 
 echo "${BLUE}cf login${END}"
-$CF login -a https://api.us-south.cf.cloud.ibm.com <<EOF
+$CF login -a https://api.eu-gb.cf.cloud.ibm.com <<EOF
 $IBM_ACCOUNT
 EOF
 
